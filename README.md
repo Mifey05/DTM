@@ -22,4 +22,32 @@ credits:
 - Reading material from eLearn.
 - GeeksforGeeks on Java's Array, Stack, Linked List, and Java Exception (try and catch).
 - w3schools on ANSI colors.
-- ChatGPT on a variety of topics, from syntax to (some) error handling.
+- ChatGPT on a variety of topics, from incorrect syntax to (some) error handling.
+
+==================================================================================================
+
+Ini merupakan laporan untuk tugas ini, oleh Mifey05
+
+Satu bagian yang memakan 60% waktu pembuatan code ini hanya pada error handling. Itu tidak semudah
+> taruh semua di dalam try and catch dan berdoalah
+
+Yah, memang saya menggunakan cukup banyak (Setidaknya 12 kali), itu semua hanya safety net, apabila muncul error yang memang tidak bisa di handle oleh code.
+Program ini berisikan sekitar 351 baris kode.
+
+Saya menggunakan Visual Studio Code untuk membuat program ini.
+Code nya dimulai dengan pembuatan metode untuk setiap fungsi dari task manager ini. Kemudian dilanjutkan dengan initialisasi berbagai data, lalu memanfaatkan "while (true)" loop untuk terus menjalankan program ini sampai user memilih untuk exit. Program ini kemudian memanfaatkan switch-case untuk efisiensi, setiap case memanggil metode masing-masing.
+
+Untuk masalah? well, mulai dari mana?
+Sebelum itu, saya mau bilang bahwa saya berterimakasih banyak ke ChatGPT untuk ini.
+- Saya tidak bisa menemukan beberapa syntax spesifik, untuk itu ChatGPT membantu ini.
+- "break" di dalam case yang berada di dalam "while (true)" loop tidak keluar dari loop, hanya casenya saja. ChatGPT memberikan solusi dengan memberi label kepada loop agar terdapat point of reference untuk lompatan "break".
+- Stack undo berbagian dengan kedua array dan linked list. Saya mencoba bertanya ke ChatGPT, tetapi ujungnya saya selesaikan dengan menggunakan boolean untuk membedakan apakah data itu dari array atau linked list.
+- Masalah di code seperti Syntax salah diselesaikan dengan mengecek GeeksForGeeks atau bertanya ke ChatGPT.
+- Banyak masalah yang berhubungan dengan error handling seperti "menghapus dynamic task" yang desync dengan data yang mengikuti itu harus diurus. sekali lagi, dengan bertanya ke ChatGPT.
+TL;DR, 4/5 nya saya tahu konsep atau logikanya, hanya tidak tahu syntax nya. Sisanya, hanya ketika saya memang tidak tahu bagaimana.
+
+credits:
+- Reading material dari eLearn.
+- GeeksforGeeks dalam Java Array, Stack, Linked List, dan Java Exception (try and catch).
+- w3schools on ANSI colors.
+- ChatGPT dalam berbagai topik, dari kesalahan syntax sampai ke (beberapa) error handling.
