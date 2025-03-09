@@ -24,6 +24,8 @@ credits:
 - w3schools on ANSI colors.
 - ChatGPT on a variety of topics, from incorrect syntax to (some) error handling.
 
+> I want to add that there's a problem that i wouldn't have found had it not been for my friend, Inno.
+
 ==================================================================================================
 
 Ini merupakan laporan untuk tugas ini, oleh Mifey05
@@ -51,3 +53,5 @@ credits:
 - GeeksforGeeks dalam Java Array, Stack, Linked List, dan Java Exception (try and catch).
 - w3schools on ANSI colors.
 - ChatGPT dalam berbagai topik, dari kesalahan syntax sampai ke (beberapa) error handling.
+
+> Saya mau menambahkan bahwa terdapat kesalahan yang saya tidak temukan sebelumnya kalau bukan karena temanku, Inno.
