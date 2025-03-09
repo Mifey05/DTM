@@ -21,7 +21,7 @@ public class DailyTaskManager {
         for (int j = 0; j < stakark.size(); j++) {
             if (!stakark.get(j)) {
                 falseCount++;
-                if (falseCount == i) {
+                if (falseCount == i - 1) {
                     stakark.remove(j);
                     stak.remove(j);
                     break;
@@ -97,7 +97,7 @@ public class DailyTaskManager {
                     System.out.println(RED + "Task hasn't been marked as complete.\n" + RESET);
                 }
             }
-    } // This method is the exact same as tcremll, except it's for the dynamic task (linked list).
+    } // This method is the exact same as tcrema, except it's for the dynamic task (linked list).
     static void tcpeek(Stack<String> stak) {
         System.out.print("\033c");
         if (stak.isEmpty()) {
